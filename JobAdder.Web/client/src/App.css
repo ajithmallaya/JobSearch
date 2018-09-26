@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: linear-gradient(to left, #35c0ad, #35c0ad);
+  text-align: center;
+  text-decoration-style: solid;
+  height: 40px;
+  padding: 20px;
+  color: white;
+  font-size: 24px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  border: 1px solid #dedede;
+  border-radius: 0;
+  width:800px;
+  margin-top: 40px;
+  left:20%;
+  position: absolute;
+}
+
+.jobs .jobs__item {
+height: 465px;
+width: 618px;
+align-items: center;
+}
+
+.input-section {
+  display: inline;
+  background-color: goldenrod;
+}
+.input-section > div > span  {
+margin-right: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.col-3 {
+  width: 50%;
+}
+
+.text {
+ display: block;
+ text-align: left;
+ padding: 3px;
+}
+
+.jobs .candidates-section {
+  box-shadow: 1px 1px 1px 1px black;
+  background-color: wheat;
+  padding: 20px;
+}
+
+.jobs .jobs-section {
+  box-shadow: 1px 1px 1px 1px #d2d3d3;
+  color: #231f20;
+  padding: 20px;
+}
+
+.jobs .job-header {
+  border-top: 1px solid #d2d3d3;
+  padding: 20px;
+  color: #706D6E;
+}
+
+ .label-header {
+  color: #706D6E;
+}
+
+.jobs .job-name ,
+.jobs .candidate-name {
+  font-weight: bold;
+  font-size: 16px;
+  color: #231f20;
+}
+
+
+@media (max-width: 600px) {
+  .App-intro {
+    left:0px;
+  }
+  .jobs .flex {
+    flex-direction: column;
+  }
+
+  .jobs .col-3 {
+    width: 100%;
+    padding: 8px 0;
+  }
+}
